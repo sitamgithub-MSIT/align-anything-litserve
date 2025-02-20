@@ -2,7 +2,7 @@
 
 [![Open In Studio](https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg)](https://lightning.ai/sitammeur/studios/deploy-got-ocr2-model)
 
-Align-DS-V, a vision-language model created by the PKU-Alignment team and HKUST, builds upon the DeepSeek-R1-Distill-Llama-8B architecture. The model demonstrates strong performance across diverse visual question answering (VQA), chat, and reasoning tasks. This project shows how to create a self-hosted, private API that deploys [reasoning vision-language model](https://huggingface.co/PKU-Alignment/Align-DS-V) with LitServe, an easy-to-use, flexible serving engine for AI models built on FastAPI.
+Align-DS-V, a vision-language model created by the PKU-Alignment team and HKUST, builds upon the DeepSeek-R1-Distill-Llama-8B architecture. The model demonstrates strong performance across diverse visual question-answering (VQA), chat, and reasoning tasks. This project shows how to create a self-hosted, private API that deploys [reasoning vision-language model](https://huggingface.co/PKU-Alignment/Align-DS-V) with LitServe, an easy-to-use, flexible serving engine for AI models built on FastAPI.
 
 ## Project Structure
 
@@ -36,7 +36,7 @@ Now, you can see the model's output based on the input request. The model will g
 
 ## Usage
 
-The project can be used to serve the Align-DS-V vision-language model using LitServe. It allows you to input an image and a question and then get the model's answer. It suggests potential uses in various visual question answering chat and reasoning tasks.
+The project can be used to serve the Align-DS-V vision-language model using LitServe. It allows you to input an image and a question and then get the model's answer. It suggests potential uses in various visual question-answering chats and reasoning tasks.
 
 ## Contributing
 
